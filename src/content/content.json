@@ -1,0 +1,350 @@
+{
+  "_readme": "Single source of truth for every word on the site. The React app must import this file and render from it. Do not hard-code copy in components. Fields with value null are placeholders: render nothing or a tasteful 'coming soon' state, never invent a value.",
+
+  "site": {
+    "title": "Janani Pradhaban | Bharatanatyam Dancer, Teacher and Organ Donation Advocate",
+    "description": "Janani Pradhaban is a classical Bharatanatyam dancer and teacher, a liver transplant recipient and a volunteer for organ donation awareness.",
+    "language": "en-IN"
+  },
+
+  "person": {
+    "name": "Janani Pradhaban",
+    "firstName": "Janani",
+    "roles": ["Bharatanatyam Dancer", "Teacher", "Liver Transplant Recipient", "Organ Donation Advocate"],
+    "tagline": "Carrying India's timeless art to the world stage",
+    "heroKicker": "Classical Indian Dance · Bharatanatyam",
+    "heroQuote": "A gift of life can become a lifetime of hope.",
+    "heroImage": "hero-portrait-red-teal-saree.jpg"
+  },
+
+  "nav": [
+    { "id": "about", "label": "About" },
+    { "id": "art", "label": "The Art" },
+    { "id": "guru", "label": "Guru & Craft" },
+    { "id": "journey", "label": "Journey" },
+    { "id": "second-life", "label": "Second Life" },
+    { "id": "mission", "label": "Mission" },
+    { "id": "gallery", "label": "Gallery" },
+    { "id": "collaborate", "label": "Collaborate" }
+  ],
+
+  "about": {
+    "eyebrow": "The Artist",
+    "heading": "Meet Janani",
+    "intro": "Janani Pradhaban is a classical Bharatanatyam dancer and teacher, a wife, a mother and a liver transplant recipient. Her life has been a journey through dreams, unexpected challenges, renewed hope and profound gratitude.",
+    "image": "portrait-block-print-saree.jpg",
+    "imageAlt": "Janani Pradhaban standing in a dark block-printed saree",
+    "family": "She was born into a family associated with India's Defence Production establishment. Her father, Mr. G. Pradhaban, is a retired Indian Ordnance Factories Service (IOFS) officer, and her mother is Mrs. Malini Pradhaban. Their love and encouragement became the foundation of her life.",
+    "stats": [
+      { "value": "4", "label": "age when she began Bharatanatyam" },
+      { "value": "4", "label": "dance forms studied: Bharatanatyam, Kathak, Odissi, Western" },
+      { "value": "2×", "label": "performances a week at her peak" }
+    ],
+    "paragraphs": [
+      "From the age of four, Janani began learning Bharatanatyam. What started as a childhood interest soon became her greatest passion, an essential part of her identity and a source of happiness.",
+      "Alongside Bharatanatyam she explored Western dance, Kathak and Odissi. She completed her Salangai Pujai and her Arangetram, and performed at temple festivals, cultural celebrations and prestigious stages.",
+      "At one stage she was performing almost twice a week, and she dreamed of releasing her own dance album."
+    ],
+    "quote": "I felt a star living her dream."
+  },
+
+  "art": {
+    "eyebrow": "The Roots",
+    "heading": "Born in India's Temples",
+    "image": "nataraja-golden.jpg",
+    "imageAlt": "Golden statue of Nataraja, Shiva as the cosmic dancer, within a ring of flames, standing on a lotus base",
+    "imageCaption": "Nataraja, Shiva as Lord of Dance: the divine inspiration behind the art",
+    "points": [
+      "Born in the temples of Tamil Nadu and danced as an offering to the divine",
+      "Drawn from the Natyashastra, an ancient Sanskrit treatise on the performing arts",
+      "One of India's eight classical dance forms, recognised by the Sangeet Natak Akademi"
+    ],
+    "nameReading": {
+      "title": "A popular reading of the name",
+      "parts": [
+        { "syllable": "Bha", "meaning": "Bhava", "gloss": "expression" },
+        { "syllable": "Ra", "meaning": "Raga", "gloss": "melody" },
+        { "syllable": "Ta", "meaning": "Tala", "gloss": "rhythm" },
+        { "syllable": "Natyam", "meaning": "Natyam", "gloss": "dance-drama" }
+      ]
+    },
+    "aspects": {
+      "heading": "Rhythm, Expression, Story",
+      "items": [
+        { "name": "Nritta", "text": "Pure rhythmic movement, geometry in motion" },
+        { "name": "Nritya", "text": "Gesture and expression that tell a story" },
+        { "name": "Natya", "text": "Dramatic storytelling, often as an ensemble" }
+      ]
+    },
+    "navarasa": {
+      "heading": "Navarasa: the nine emotions a dancer brings to life",
+      "items": [
+        { "rasa": "Shringara", "meaning": "Love" },
+        { "rasa": "Hasya", "meaning": "Joy" },
+        { "rasa": "Karuna", "meaning": "Compassion" },
+        { "rasa": "Raudra", "meaning": "Anger" },
+        { "rasa": "Veera", "meaning": "Courage" },
+        { "rasa": "Bhayanaka", "meaning": "Fear" },
+        { "rasa": "Bibhatsa", "meaning": "Disgust" },
+        { "rasa": "Adbhuta", "meaning": "Wonder" },
+        { "rasa": "Shanta", "meaning": "Peace" }
+      ]
+    },
+    "margam": {
+      "heading": "A Recital in Seven Movements",
+      "intro": "The traditional order of a solo Bharatanatyam performance, the margam, from invocation to benediction.",
+      "items": [
+        { "n": 1, "name": "Alarippu", "text": "An invocation in pure rhythm; the body \"blossoms\"" },
+        { "n": 2, "name": "Jatiswaram", "text": "Pure dance to melodic notes, no words" },
+        { "n": 3, "name": "Shabdam", "text": "Dance set to a verse; expression begins" },
+        { "n": 4, "name": "Varnam", "text": "The centrepiece: rhythm and emotion woven together" },
+        { "n": 5, "name": "Padam", "text": "A devotional lyric told through gesture and face" },
+        { "n": 6, "name": "Tillana", "text": "A joyous, fast finale of rhythm and pattern" },
+        { "n": 7, "name": "Mangalam", "text": "A closing prayer of thanks and blessing" }
+      ],
+      "note": "Some recitals vary the order or add items."
+    }
+  },
+
+  "guruAndCraft": {
+    "guru": {
+      "eyebrow": "The Guru",
+      "heading": "Learning at the Guru's Side",
+      "image": "with-guru-malathi-vaidyanatham.jpg",
+      "imageAlt": "Janani's guru gently guiding her arm position in a Bharatanatyam pose against a black backdrop",
+      "label": "Guru Smt. Malathi Vaidyanatham",
+      "text": "Bharatanatyam is traditionally passed from teacher to student, one gesture at a time. Janani learned the art at her guru's side, and today she passes it on to students of her own.",
+      "nameSpellingNeedsConfirmation": true
+    },
+    "prayer": {
+      "eyebrow": "Before the Curtain Rises",
+      "heading": "Prayer Before Performance",
+      "image": "prayer-temple-wide.jpg",
+      "imageAlt": "Janani in an orange and gold Bharatanatyam costume kneeling with folded hands in prayer before Lord Nataraja at the sacred temple altar",
+      "imageCaption": "Prayer before Lord Nataraja: seeking divine blessings before taking the stage",
+      "points": [
+        "Dancers traditionally begin with a prayer, seeking blessings before every performance",
+        "Salangai Pujai: the ceremony that blesses a dancer's ankle bells",
+        "The art itself began as an offering in the temples of Tamil Nadu"
+      ]
+    },
+    "backstage": {
+      "eyebrow": "Backstage",
+      "heading": "Preparing for the Stage",
+      "image": "backstage-makeup.jpg",
+      "imageAlt": "A woman applying finishing touches of makeup to a Bharatanatyam dancer in a red costume before a performance",
+      "points": [
+        "Hours of preparation: make-up, jewellery, flowers and costume",
+        "Bold eye make-up carries every expression to the last row of the hall",
+        "Every adornment has meaning and purpose"
+      ]
+    },
+    "costume": {
+      "eyebrow": "The Craft",
+      "heading": "Costume and Adornment",
+      "image": "costume-teal-seated-pose.jpg",
+      "imageAlt": "Janani in a teal and maroon pleated silk Bharatanatyam costume with gold jewellery, jasmine in her hair and red-dyed feet",
+      "items": [
+        { "name": "Flowers and headpiece", "text": "Jasmine and gold ornament, a mark of grace" },
+        { "name": "Temple jewellery", "text": "Gold necklaces, bangles and a decorative waist belt" },
+        { "name": "Red alta", "text": "Dye on hands and feet that frames every gesture" },
+        { "name": "Pleated silk sari", "text": "Zari borders that fan out in the half-sitting stance" },
+        { "name": "Salangai", "text": "Ankle bells that sound out every rhythm" }
+      ]
+    },
+    "onStage": {
+      "eyebrow": "On Stage",
+      "heading": "Centre Stage",
+      "image": "on-stage-green-costume.jpg",
+      "imageAlt": "Janani performing Bharatanatyam on stage in a green and gold costume, in front of a painted temple backdrop",
+      "points": [
+        "Performed at temple festivals, cultural celebrations and prestigious stages",
+        "At her peak, on stage almost twice a week",
+        "Dreamed of releasing her own dance album"
+      ],
+      "quote": "I felt a star living her dream."
+    }
+  },
+
+  "journey": {
+    "eyebrow": "Her Life in Brief",
+    "heading": "Her Journey at a Glance",
+    "timeline": [
+      { "label": "Age 4", "title": "The debut", "text": "Began Bharatanatyam training at the age of four." },
+      { "label": "Age 13 and 16", "title": "The milestones", "text": "Completed her Salangai Pujai at the age of 13 and her Arangetram at the age of 16." },
+      { "label": "From age 13", "title": "The diagnosis", "text": "Health problems began at 13, leading to a diagnosis of liver cirrhosis, though she never had jaundice.", "needsConfirmation": "diagnosis wording" },
+      { "label": "Age 24", "title": "Marriage", "text": "Married Suresh Marisamy, who stood by her through difficult times." },
+      { "label": "Five years", "title": "The long wait", "text": "She and her family waited five years for a suitable donor liver." },
+      { "label": "9 Feb 2016", "title": "Transplant", "text": "Received a liver transplant, the day she calls her second birthday." },
+      { "label": "28 Sep 2017", "title": "Motherhood", "text": "Her son was born healthy, in the very next year after her transplant.", "needsConfirmation": "birth year 2017 vs 2018" },
+      { "label": "After recovery", "title": "Back to dance", "text": "Returned to Bharatanatyam after her recovery." },
+      { "label": "Today", "title": "Teacher and advocate", "text": "Continues to perform and teach Bharatanatyam and volunteers for organ donation awareness." }
+    ],
+    "diagnosis": {
+      "heading": "Diagnosis and the Long Wait",
+      "stats": [
+        { "value": "13", "label": "age when her health began to fail" },
+        { "value": "5", "label": "years waiting for a donor liver" },
+        { "value": "9 Feb 2016", "label": "the day of her transplant" }
+      ],
+      "cards": [
+        { "title": "The diagnosis", "text": "From the age of 13 her health began to fail and dance had to stop. She was diagnosed with liver cirrhosis, though she had never had jaundice and danced every day.", "needsConfirmation": "diagnosis wording" },
+        { "title": "Daily life", "text": "Before the transplant she had lost almost all her hair, her nails had turned black, her skin had darkened, and even daily routines were extremely difficult." },
+        { "title": "The long wait", "text": "For five years her family prayed, visited places of worship and held on to hope while waiting for a suitable donor liver. The doctors had explained the risks of surgery, but without a transplant her life was in serious danger." }
+      ],
+      "pullQuote": "I was frightened, but I continued to hope."
+    }
+  },
+
+  "secondLife": {
+    "night": {
+      "eyebrow": "9 February 2016",
+      "heading": "The Night That Changed Everything",
+      "steps": [
+        { "time": "12:30 a.m.", "title": "The call", "text": "A donor family agrees to donate. Reach the hospital within an hour." },
+        { "time": "2:00 a.m.", "title": "Admission", "text": "A night of tests and analysis, with family beside her." },
+        { "time": "9:00 a.m.", "title": "The theatre", "text": "She prays: \"Give me a new life. My family is waiting outside.\"" },
+        { "time": "12 hours", "title": "The surgery", "text": "20+ people give blood and plasma. The surgery is a success." },
+        { "time": "10:00 p.m.", "title": "Into ICU", "text": "Glass walls, wires, machines and nurses beside her." },
+        { "time": "5 days", "title": "Intensive care", "text": "Her family visits and the pain fades, then she moves to the ward." },
+        { "time": "The ward", "title": "Recovery", "text": "Medicines, injections, tests and counselling." },
+        { "time": "6 months", "title": "Back home", "text": "No visitors, to avoid infection. Hair, nails and skin recover." }
+      ]
+    },
+    "resilience": {
+      "eyebrow": "The Artist",
+      "heading": "Art Shaped by Resilience",
+      "image": "hospital-after-delivery-with-cake.jpg",
+      "imageAlt": "Janani in a hospital bed cutting a small cake, with a baby's bassinet beside her",
+      "imageCaption": "A joyful moment in hospital",
+      "steps": [
+        { "n": 1, "title": "Recovery", "text": "Five days of close care, then the ward and a long road of medicines, tests and counselling." },
+        { "n": 2, "title": "Renewal", "text": "Back home, a new life began: her hair, nails and skin recovered, and strength returned." },
+        { "n": 3, "title": "Return", "text": "She danced again, welcomed a healthy baby on 28 September 2017, and now performs and teaches with deeper purpose." }
+      ]
+    },
+    "blessing": {
+      "eyebrow": "A Blessing",
+      "heading": "A Gift for Her Son",
+      "image": "dr-mohamed-rela-with-janani-son.jpg",
+      "imageAlt": "A doctor in scrubs gently holding a newborn baby wrapped in a blue blanket",
+      "caption": "Dr. Mohamed Rela, carrying Janani's son",
+      "label": "A Doctor's Blessing",
+      "text": "Dr. Mohamed Rela is carrying Janani's son. He gifted a gold chain to her son.",
+      "quote": "A miracle in the very next year: February 2016 was her transplantation, and in 2017 her son was born.",
+      "doNotSay": "Do NOT state or imply that Dr. Rela was Janani's treating doctor or surgeon. He only carried her son and gifted the gold chain."
+    },
+    "gratitude": {
+      "eyebrow": "With Gratitude",
+      "heading": "To the Donor and the Donor's Family",
+      "paragraphs": [
+        "There is one family to whom Janani will always owe a debt of gratitude. In a time of profound grief they chose to donate the organs of a loved one, and because of their generosity she could return to her family, dance again and become a mother.",
+        "She may never know their names or meet them, but their decision remains a permanent part of her life story. She also honours the people who donated blood and plasma during her surgery, and the doctors, nurses and healthcare professionals who helped her recover."
+      ],
+      "quote": "I honour their decision by living with gratitude and purpose."
+    },
+    "seekingBlessings": {
+      "image": "seeking-blessings.jpg",
+      "imageAlt": "A dancer in an orange costume bows to touch the feet of a woman holding a tray of offerings, a gesture of respect and blessing, with onlookers in the background",
+      "caption": "A gesture of respect and blessing"
+    }
+  },
+
+  "mission": {
+    "eyebrow": "The Mission",
+    "heading": "Art with Purpose",
+    "organisation": "Mohan Foundation (Multi Organ Harvesting Aid Network), India",
+    "intro": "Janani uses her platform to raise awareness of organ donation, volunteering with Mohan Foundation (Multi Organ Harvesting Aid Network) in India.",
+    "headlineQuote": "One donor can save multiple lives.",
+    "personalQuote": "Organ donation is not just a cause for me. It is my life story.",
+    "reasons": [
+      { "title": "Honour my donor", "text": "Live with purpose, and say thank you to a donor and family I may never meet." },
+      { "title": "Share my story", "text": "If it inspires even one person to support organ donation, a life may be saved." },
+      { "title": "Start family conversations", "text": "Encourage people to talk with their families about their wishes." },
+      { "title": "Spread awareness", "text": "Help people learn what organ donation is, and register if it is right for them." }
+    ],
+    "callToAction": {
+      "heading": "One yes can save many lives",
+      "steps": [
+        "Learn about organ donation",
+        "Talk to your family about your wishes",
+        "Register as a donor, if it feels right to you",
+        "Help spread the word"
+      ],
+      "closing": "Thank you. Please save lives."
+    },
+    "messageToTheWorld": [
+      "My life has taught me that hope can survive even in the most difficult circumstances.",
+      "My journey is a story of survival, but it is also a story of human kindness.",
+      "May my story encourage more people to learn, talk, and consider how they can help others."
+    ],
+    "links": {
+      "speech": "awareness-speech.md",
+      "volunteerStatement": "volunteer-statement.md",
+      "fullStory": "full-story.md"
+    },
+    "disclaimer": "Organ donation is a deeply personal decision. For accurate information, please speak to qualified healthcare professionals and authorised organisations such as Mohan Foundation."
+  },
+
+  "gallery": {
+    "eyebrow": "Gallery",
+    "heading": "Moments",
+    "items": [
+      { "file": "hero-portrait-red-teal-saree.jpg", "alt": "Portrait of Janani in a red and teal saree", "caption": "Janani Pradhaban", "category": "dance" },
+      { "file": "portrait-block-print-saree.jpg", "alt": "Janani in a dark block-printed saree", "caption": "Portrait of the Artist", "category": "life" },
+      { "file": "costume-teal-seated-pose.jpg", "alt": "Janani in a teal and maroon Bharatanatyam costume", "caption": "Classical Silk & Adornment", "category": "dance" },
+      { "file": "on-stage-green-costume.jpg", "alt": "Janani performing on stage in a green and gold costume", "caption": "Centre Stage Recital", "category": "dance" },
+      { "file": "with-guru-malathi-vaidyanatham.jpg", "alt": "Janani with her guru", "caption": "With Guru Smt. Malathi Vaidyanatham", "category": "tradition" },
+      { "file": "backstage-makeup.jpg", "alt": "Final make-up touches backstage", "caption": "Backstage Preparation", "category": "tradition" },
+      { "file": "prayer-temple-wide.jpg", "alt": "Janani kneeling in prayer before Lord Nataraja at the altar", "caption": "Prayer Before Lord Nataraja", "category": "tradition" },
+      { "file": "seeking-blessings.jpg", "alt": "A dancer touching the feet of an elder for blessings", "caption": "Seeking Blessings", "category": "tradition" },
+      { "file": "with-students-salangai-pooja.jpg", "alt": "Janani with her young students at a Salangai Pooja", "caption": "With Her Students (Salangai Pooja)", "category": "tradition" },
+      { "file": "hospital-after-delivery-with-cake.jpg", "alt": "Janani in hospital cutting a small cake", "caption": "Celebration of Motherhood", "category": "life" },
+      { "file": "dr-mohamed-rela-with-janani-son.jpg", "alt": "Dr. Mohamed Rela carrying Janani's son", "caption": "Dr. Mohamed Rela, carrying Janani's son", "category": "life" },
+      { "file": "nataraja-golden.jpg", "alt": "Golden Nataraja statue", "caption": "Nataraja, the Cosmic Dancer", "category": "dance" }
+    ]
+  },
+
+  "collaborate": {
+    "eyebrow": "Partnerships",
+    "heading": "Ways to Collaborate",
+    "items": [
+      { "title": "Stage performances", "text": "Recitals for festivals, theatres and cultural events" },
+      { "title": "Workshops and masterclasses", "text": "Hands-on sessions for students of every level" },
+      { "title": "Lecture-demonstrations", "text": "Mudras, rasa and storytelling, explained live" },
+      { "title": "Cultural exchange", "text": "Programmes with schools, universities and communities" }
+    ],
+    "howWeBegin": {
+      "heading": "How we begin",
+      "steps": [
+        "Share your audience and occasion",
+        "Choose a format that fits your venue",
+        "We shape the programme around your goals"
+      ]
+    },
+    "closing": {
+      "image": "with-students-salangai-pooja.jpg",
+      "imageAlt": "Janani seated with her young Bharatanatyam students in colourful costumes at a Salangai Pooja celebration",
+      "greeting": "Namaste",
+      "greetingMeaning": "I bow to you",
+      "line": "Let's bring India's living heritage to your stage.",
+      "signature": "Janani Pradhaban, Bharatanatyam dancer and teacher",
+      "caption": "With her students"
+    },
+    "contact": {
+      "_note": "NO contact details have been supplied yet. Render these only when the value is not null. Do not build a form that submits anywhere (front end only). A plain mailto: link is fine once an email is supplied.",
+      "email": "Jananipradhaban@gmail.com",
+      "phone": "+91 90030 98482",
+      "instagram": null,
+      "youtube": null,
+      "facebook": null,
+      "location": null
+    }
+  },
+
+  "footer": {
+    "line": "Janani Pradhaban · Bharatanatyam dancer and teacher",
+    "mission": "Please save lives. Jai Hind.",
+    "copyright": "© Janani Pradhaban"
+  }
+}
