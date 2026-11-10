@@ -2138,6 +2138,11 @@
   height: auto;
   margin-bottom: 0.5rem;
   filter: drop-shadow(0 10px 40px rgba(201, 162, 94, 0.25));
+  animation: intro-glow 2.6s ease-in-out 1.2s infinite;
+}
+@keyframes intro-glow {
+  0%, 100% { filter: drop-shadow(0 10px 40px rgba(201, 162, 94, 0.22)); }
+  50% { filter: drop-shadow(0 10px 60px rgba(201, 162, 94, 0.5)); }
 }
 
 .footer__logo {

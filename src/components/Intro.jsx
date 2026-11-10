@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { EASE } from './ui/Reveal'
 import { lockScroll } from '../lib/smooth'
 
-export const INTRO_DURATION = 2.4 // seconds until the curtain has lifted
+export const INTRO_DURATION = 5 // seconds the opening screen stays before the curtain has fully lifted
 
 /** Opening curtain: name rises letter by letter, a gold line draws, then the panel lifts. */
 export default function Intro({ name, kicker, onDone }) {
